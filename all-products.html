@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Product</title>
+   <!-- Google Font -->
+   <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700&display=swap" rel="stylesheet">
+
+   <!-- Font Awesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
+   <!-- Favicon -->
+   <link rel="stylesheet" href="../Ecommerce/images/favicon.ico" type="image/x-icon">
+
+   <!-- Glidejs Carousel -->
+   <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+   <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
+
+   <!-- AOS - Animate On Scroll -->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+   <!-- StyleSheet -->
+   <link rel="stylesheet" href="../Ecommerce/css/style.css">
+   <link rel="stylesheet" href="../Ecommerce/css/responsive.css">
+</head>
+<body>
+   <!-- Header -->
+   <header class="header" id="header">
+
+      <!-- Navigation -->
+      <div class="navigation">
+         <div class="container">
+            <nav class="nav">
+               <div class="nav__hamburger">
+                  <svg >
+                     <use  xlink:href="../Ecommerce/images/sprite.svg#icon-menu"></use>
+                  </svg>
+               </div>
+
+               <div class="nav__logo">
+                  <a href="../Ecommerce/" class="scroll-link">SHOPE</a>
+               </div>
+
+               <div class="nav__menu">
+                  <div class="menu__top">
+                     <span class="nav__category">SHOPE</span>
+                     <button class="close__toggle">
+                        <svg>
+                           <use xlink:href="../Ecommerce/images/sprite.svg#icon-cross"></use>
+                        </svg>
+                     </button>
+                     <!-- <a href="" class="close__toggle"> -->
+                        
+                     </a>
+                  </div>
+
+               </div>
+
+               <div class="search__box">
+                  <input type="text" placeholder="Search...">
+                  <svg>
+                     <use xlink:href="../Ecommerce/images/sprite.svg#icon-search"></use>
+                  </svg>
+               </div>
+
+               <div class="nav__icons">
+                  <a href="#" class="icon__item">
+                     <svg>
+                        <use xlink:href="../Ecommerce/images/sprite.svg#icon-user"></use>
+                     </svg>
+                  </a>
+
+                  <a href="#" class="icon__item">
+                     <svg>
+                        <use xlink:href="../Ecommerce/images/sprite.svg#icon-heart-o"></use>
+                     </svg>
+                  </a>
+
+                  <a href="#" class="icon__item">
+                     <svg>
+                        <use xlink:href="../Ecommerce/images/sprite.svg#icon-shopping-basket"></use>
+                     </svg>
+                     <span id="cart__total">0</span>
+                  </a>
+               </div>
+
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a href="../Ecommerce" class="nav__link scroll-link">Home</a>
+                     <line class="nav__item-line" ></line>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#category" class="nav__link scroll-link">Category <i class="fas fa-caret-down"></i> </a>
+                     <line class="nav__item-line"></line>
+                     <div class="sub__nav">
+                        <ul>
+                           <li><a href="" class="nav__link scroll-link">Product 1</a></li>
+                           <li><a href="" class="nav__link scroll-link">Product 2</a></li>
+                           <li><a href="" class="nav__link scroll-link">Product 3</a></li>
+                        </ul>
+                     </div>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#news" class="nav__link scroll-link">Blog</a>
+                     <line class="nav__item-line" ></line>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#contact" class="nav__link scroll-link">Contact</a>
+                     <line class="nav__item-line" ></line>
+                  </li>
+               </ul>
+            </nav>
+         </div>
+      </div>      
+   </header>
+
+   <main id="main">
+      <div class="container">
+         <!-- Category Container -->
+         <section class="category__section section" id="category">
+            <div class="tab__list">
+               <div class="title__container tabs">
+                  <div class="section__titles category__titles">
+                     <div class="section__title filter-btn active" data-id="All Products">
+                        <span class="dot"></span>
+                        <h1 class="primary__title">All Products</h1>
+                     </div>
+                  </div>
+
+                  <div class="section__titles">
+                     <div class="section__title filter-btn" data-id="Trending Products">
+                        <span class="dot"></span>
+                        <h1 class="primary__title">Trending Products</h1>
+                     </div>
+                  </div>
+
+                  <div class="section__titles">
+                     <div class="section__title filter-btn" data-id="Special Products">
+                        <span class="dot"></span>
+                        <h1 class="primary__title">Special Products</h1>
+                     </div>
+                  </div>
+
+                  <div class="section__titles">
+                     <div class="section__title filter-btn" data-id="Featured Products">
+                        <span class="dot"></span>
+                        <h1 class="primary__title">Featured Products</h1>
+                     </div>
+                  </div>
+               </div>
+               <!-- Category Center -->
+               <div class="category__container">
+                  <div class="category__center"></div>
+                  <a href="../Ecommerce/product.html"><button>View More</button></a>
+               </div>
+            </div>
+         </section>
+      </div>
+   </main>
+
+   <!-- Go to top of page -->
+   <a href="#header" class="goto-top scroll-link">
+      <svg>
+         <use xlink:href="../Ecommerce/images/sprite.svg#icon-arrow-up"></use>
+      </svg>
+   </a>
+
+   <!-- Glidejs -->
+   <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+   <!-- AOS - Animate On Scroll -->
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <!-- Add javascript files -->
+   <script src="../Ecommerce/js/slider.js"></script>
+   <!-- <script src="../Ecommerce/js/index.js"></script> -->
+   <script src="../Ecommerce/js/all-products.js"></script>
+</body>
+</html>
