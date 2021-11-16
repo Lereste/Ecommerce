@@ -658,7 +658,7 @@
    .footer-top {
       grid-template-columns: repeat(2, 1fr);
       row-gap: 2rem;
-      margin-left: 6rem;
+      margin-left: 1rem;
    }
 }
 
