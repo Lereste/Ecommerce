@@ -10,7 +10,7 @@ https://glidejs.com/docs/setup/
 
 https://michalsnik.github.io/aos/
 
-========================
+================================================
 
 Install Glidejs: npm install @glidejs/glide
 
