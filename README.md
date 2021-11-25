@@ -2,7 +2,11 @@
 
 Responsive website with Html, Css and Javascript
 
-Demo: https://lereste-shop.netlify.app
+Demo: 
+
+1) https://lereste-shop.netlify.app
+
+2) https://lereste-shop.vercel.app
 
 ================================================
 
